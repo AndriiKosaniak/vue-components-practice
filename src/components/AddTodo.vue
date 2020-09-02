@@ -2,7 +2,7 @@
   <div>
     <h1>AddTodo</h1>
     <input type="text" v-model="text">
-    <button @click="addToDo">Add</button>
+    <button @click="add">Add</button>
   </div>
 </template>
 
@@ -11,9 +11,7 @@ export default {
 name: "AddTodo",
 
   methods: {
-    addToDo() {
-      this.toDoList.push(this.text)
-    },
+
 
 
     add()
