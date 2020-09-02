@@ -1,7 +1,9 @@
 <template>
   <div>
   <TodoList :toDoList="toDoList"></TodoList>
-    <AddTodo/>
+    <AddTodo
+    @addToDo="addToDo"
+    />
   </div>
 </template>
 
@@ -43,6 +45,11 @@ export default {
     }
   },
 
+  methods: {
+    addToDo() {
+      this.toDoList.push(this.text)
+    },
+  }
 }
 </script>
 
