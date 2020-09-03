@@ -28,7 +28,7 @@ export default {
     TodoItem
   },
   methods: {
-    addToDo(event){
+    addToDo(){
       this.toDoList.push(this.text)
     }
   }
