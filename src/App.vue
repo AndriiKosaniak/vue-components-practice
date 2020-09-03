@@ -24,24 +24,7 @@ export default {
 
   data() {
     return {
-      toDoList: [
-        {
-          action: 'WakeUp',
-          priority: 'high'
-        },
-        {
-          action: 'BrushTeeth',
-          priority: 'high'
-        },
-        {
-          action: 'HaveBreakfast',
-          priority: 'medium'
-        },
-        {
-          action: 'Reading',
-          priority: 'low'
-        }
-      ]
+      toDoList: []
     }
   },
 
