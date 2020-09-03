@@ -29,8 +29,8 @@ export default {
   },
 
   methods: {
-    addToDo() {
-      this.toDoList.push(this.text)
+    addToDo(event) {
+      this.toDoList.push(event)
     },
   }
 }
