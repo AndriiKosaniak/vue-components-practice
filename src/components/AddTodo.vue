@@ -10,9 +10,13 @@
 export default {
 name: "AddTodo",
 
+  data() {
+  return {
+    text: ''
+  }
+  },
+
   methods: {
-
-
 
     add()
     {
