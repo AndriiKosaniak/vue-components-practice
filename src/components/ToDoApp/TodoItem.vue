@@ -9,7 +9,7 @@ export default {
 
   props: {
     todo: {
-      type: Object,
+      type: String,
       required: true
     }
   }
